@@ -1,0 +1,91 @@
+.carousel-img {
+    height: 750px;
+    width: 100%;
+  }
+  
+  .carousel-caption p,
+  .carousel-caption h3,
+  .carousel-caption h2 {
+    text-align: justify;
+  }
+  
+  .caption-1 p {
+    margin-top: -530px;
+    margin-left: -50px;
+    color: black;
+    width: 850px;
+    line-height: 1.8;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  
+  .caption-1 .sub-text {
+    margin-left: -50px;
+    color: black;
+    width: 450px;
+    line-height: 1.8;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .caption-1 .button {
+    background: linear-gradient(to left, #006666 30%, #152D43 100%);
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-left: -50px;
+  }
+  
+  .caption-1 .button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .caption-2 h3 {
+    margin-top: -500px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #990099;
+    margin-left: 480px;
+  }
+  
+  .caption-2 h2 {
+    color: black;
+    margin-left: 575px;
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  .caption-2 .sub-text {
+    margin-left: 580px;
+    color: black;
+    width: 500px;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 30px;
+  }
+  
+  .caption-2 .button {
+    background: linear-gradient(to left, #990099 30%, #152D43 100%);
+    width: 200px;
+    height: 50px;
+    margin-right: -290px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  .caption-2 .button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Add similar styles for other captions (caption-3, caption-4, caption-5) */
+  

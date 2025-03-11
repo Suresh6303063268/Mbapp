@@ -1,0 +1,26 @@
+.but1{
+    background: linear-gradient(to right,rgb(209, 5, 39),rgb(230, 84, 105));
+}
+ 
+.but2{
+    background: linear-gradient(to right,rgb(209, 5, 39),rgb(230, 84, 105));
+    width:200px;
+    
+}
+
+.but3{
+    background: linear-gradient(to left,#05dcf0,#0e9c8d);
+    width:150px;
+    height:40px;
+    margin-top:40px;
+    margin-left:500px;
+    border:none;
+    border-radius: 10px;
+
+}
+
+
+
+.kconfirm{
+    background: linear-gradient(to right,#2193B0,#6DD5ED);
+}

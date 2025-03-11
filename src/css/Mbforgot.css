@@ -1,0 +1,21 @@
+/*left side color*/
+.body5{
+    background:linear-gradient(to bottom,#035584,#0595f5);
+    width:580px;
+    height:600px;
+    margin-Left:60px;
+    margin-Top:40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  
+}
+/*right side color*/
+.body4{
+    background:linear-gradient(to bottom,#0595f5,#035584);
+    width:580px;
+    height:600px;
+    margin-Top:40px;
+    border-top-Right-radius: 30px;
+    border-bottom-Right-radius:30px;
+    
+}

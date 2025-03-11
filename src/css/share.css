@@ -1,0 +1,148 @@
+/* Progressbar.module.css or Progressbar.css */
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.greeting-card {
+  background-color: #04014F;
+  width: 500px;
+  height: 120px;
+  border-radius: 10px;
+  margin-left: 70px;
+  box-shadow: 0px 0px 5px black;
+  margin-top: 50px;
+}
+
+.greeting-card h1 {
+  color: rgb(206, 18, 18);
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.greeting-card .highlight {
+  font-size: 20px;
+  text-decoration: underline;
+  color: darkorange;
+}
+
+.profile-bar {
+  display: flex;
+  width: 1000px;
+  height: 70px;
+  background-color: #0C0A4D;
+  margin-left: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-bar h1 {
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.profile-bar label,
+.profile-bar input {
+  color: white;
+  font-size: 20px;
+}
+
+.profile-bar input {
+  background-color: #0C0A4D;
+  border: none;
+}
+
+.message-card {
+  width: 600px;
+  box-shadow: 0px 0px 5px black;
+  height: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.message-card h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee-list-container {
+  border: 2px solid black;
+  height: 430px;
+  width: 600px;
+  margin-top: 2px;
+}
+
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color:black;
+}
+
+.employee-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color:black;
+}
+
+.employee-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.employee-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: auto;
+  color:black;
+}
+
+.employee-name:hover {
+  color: red;
+}
+
+.employee-status {
+  display: flex;
+  align-items: center;
+}
+
+.status-text {
+  margin-right:200px;
+}
+
+.chat-container {
+  display: flex;
+  align-items: center;
+}
+
+.chat-icon {
+  margin-right: 5px;
+  background-color: rgb(7, 70, 99);
+  color:white;
+  border-radius: 20px;
+  height:50px;
+  width:50px;
+}
+
+.employee-0 { color: red; }
+.employee-1 { color: blue; }
+.employee-2 { color: green; }
+.employee-3 { color: orange; }
+.employee-4 { color: purple; }
+.employee-5 { color: brown; }
+.employee-6 { color: pink; }
+.employee-7 { color: gray; }

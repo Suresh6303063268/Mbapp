@@ -1,0 +1,173 @@
+.adi-container{
+    margin-left:370px;
+    border:2px solid rgb(4, 38, 60);
+    margin-top: 40px;
+}
+.adi-heading{
+    margin-top:150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(6, 64, 73)
+}
+.adi-label-name{
+    padding-left: 100px;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 25px;
+    color:rgb(6, 70, 90);
+}
+.adi-input-name{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    border: 1px,solid,gray;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.adi-block-icon1{
+    position: relative;
+    right: 26px;
+    font-size: 20px;
+    padding-right: 5;
+    padding-top: 25px;
+}
+.adi-label-post{
+    color:rgb(6, 70, 90);
+}
+.adi-input-post{
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left:152px;
+    border: 1px,solid,gray;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.adi-block-icon2{
+    position: relative;
+    right: 26px;
+    font-size: 20px;
+    padding-right: 5;
+    padding-top: 25px;
+
+}
+.adi-label-spin{
+    padding-left: 100px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    color:rgb(6, 70, 90);
+}
+.adi-input-spin{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 190px;
+    border: 1px,solid,gray;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.adi-block-icon3{
+    position: relative;
+    right: 26px;
+    font-size: 20px;
+    padding-right: 5;
+    padding-top: 15px;
+
+}
+.adi-label-address{
+    padding-left: 100px;
+    font-size: larger;
+    font-weight: bold; 
+    padding-top: 50px;  
+    color:rgb(6, 70, 90);
+}
+.adi-textarea-address{
+    width: 410px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 100px;
+    border: 1px,solid,gray;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.adi-icon1{
+    position: absolute;
+    right: 8px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    padding-right: 5;
+}
+.adi-icon2{
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    padding-right: 10px;
+}
+.adi-label-mobile{
+    padding-left: 100px;
+    font-size: larger;
+    font-weight: bold; 
+    padding-top: 50px;  
+
+}
+.adi-input-mobile{
+    width: 412px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 100px;
+    border: 1px,solid,gray;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.pen-icon{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.adi-label-delivery{
+    padding-left: 100px;
+    font-size: larger;
+    font-weight: bold; 
+    padding-top: 50px;  
+}
+.adi-input-delivery{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 130px;
+    border: 1px,solid,gray;
+    background-color: rgb(2, 14, 25);
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.adi-button-next{
+    margin-left: 690px;
+    margin-top: 80px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background:linear-gradient(to bottom,#2A5754,#164D49);
+    color:white;
+    font-weight: bold;
+}

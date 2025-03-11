@@ -1,0 +1,25 @@
+.Ncontainer-tab-admin {
+  width: 100%;
+  height:400px; /* Example height */
+  overflow-y: scroll;
+  scrollbar-color: #888888 #f0f0f0; /* For Firefox */
+  -webkit-overflow-scrolling: touch; /* Enables momentum scrolling in iOS Safari */
+}
+
+/* Webkit specific styles for scrollbar */
+.Ncontainer-tab-admin::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Ncontainer-tab-admin::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Color of the track */
+}
+
+.Ncontainer-tab-admin::-webkit-scrollbar-thumb {
+  background-color: #888888; /* Color of the scrollbar */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.Ncontainer-tab-admin::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar on hover */
+}

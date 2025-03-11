@@ -1,0 +1,150 @@
+.adi-container1 {
+  width:1150px;
+  height:280px;
+  box-shadow: 0px 0px 5px black; /* corrected syntax for box-shadow */
+  margin-left:20px;
+  margin-top: 50px;
+  border:none;
+}
+
+.adi-heading{
+  color:red;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.adi-div1{
+  background-color: blue;
+  box-shadow: 0px 3px 5px black;
+  width:200px;
+  height:180px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top:50px;
+  text-align: center;
+  margin-top:15px;
+  margin-left: 15px;
+
+}
+.adi-div2{
+  background-color: #DF18AA;
+  box-shadow: 0px 3px 5px black;
+  width:200px;
+  height:180px;
+  border-radius: 10px;
+  color: white;
+  margin-left:25px;
+  margin-top:15px;
+}
+.adi-div3{
+  background-color: blue;
+  box-shadow: 0px 3px 5px black;
+  width:200px;
+  height:180px;
+  border-radius: 10px;
+  color: white;
+  margin-left:25px;
+  margin-top:15px;
+}
+.adi-div4{
+  background-color: #DF18AA;
+  width:200px;
+  height:180px;
+  border-radius: 10px;
+  color: white;
+  margin-left:25px;
+  box-shadow: 0px 3px 5px black;
+  margin-top:15px;
+}
+.adi-div5{
+  background-color: blue;
+  width:200px;
+  height:180px;
+  border-radius: 10px;
+  color: white;
+  margin-left:25px;
+  box-shadow: 0px 3px 5px black;
+  margin-top:15px;
+}
+.adi-traffic-div {
+  width: 650px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left:30px;
+  display: flex;
+  box-shadow: 0px 0px 5px black; /* Box shadow with corrected syntax */
+  background-color: rgb(245, 245, 249);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.adi-traffic-source{
+  color:red;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.adi-traffic-container{
+  width: 1200px;
+  height: 300px;
+  border: 1px,solid,grey;
+  box-shadow: 0px,0px,5px,1px,black;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.adi-button1{
+  width:280px;
+  height: 35px;
+  background-color:#0573f1;
+  border-radius: 5px;
+  margin-top:30px;
+  margin-left:30px;
+  display:flex;
+  box-shadow: 0px,0px,5px,1px,black;
+}
+.adi-button2{
+  width: 300px;
+  height: 35px;
+  background-color: #CECECE;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display:flex;
+  box-shadow: 0px,0px,5px,1px,black;
+  
+}
+.adi-states{
+  color:#F80F0B;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top:30px;
+  font-weight: bold;
+  margin-top:20px;
+  margin-left:70px;
+}
+.adi-state-scroll {
+  max-height: 300px; /* Example height to enable scrolling */
+  overflow-y: auto; /* "auto" or "thin" for Firefox, "none" for other browsers */
+  scrollbar-color: rgb(3, 49, 59) lightgray; /* scrollbar color */
+  background-color: aliceblue;
+}
+
+/* Webkit (Chrome, Safari) scrollbar styles */
+.adi-state-scroll::-webkit-scrollbar {
+  width: 6px; /* width of the scrollbar */
+}
+
+.adi-state-scroll::-webkit-scrollbar-track {
+  background: lightgray; /* color of the track */
+}
+
+.adi-state-scroll::-webkit-scrollbar-thumb {
+  background-color: gray; /* color of the thumb */
+  border-radius: 10px; /* roundness of the thumb */
+  border: 2px solid lightgray; /* border around the thumb */
+}

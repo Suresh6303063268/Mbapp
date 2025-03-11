@@ -1,0 +1,123 @@
+.billing-history {
+  width: 1150px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.billing-history h1 {
+  background-color: #0B496F;
+  color: white;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.billing-history h3 {
+  margin-left: 10px;
+}
+
+.Rtable-container {
+  margin: 10px;
+  max-height: 400px; /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+.Rtple {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.Rtple th, .Rtple td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Rtple th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mnk tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mnk tr:hover {
+  background-color: #f1f1f1;
+}
+
+.mnk td {
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+
+/* Filter css code*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Gtab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Gtab button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Gtab button.active {
+  background-color: #ddd;
+}
+
+.Gtabcontent {
+  display: none;
+}
+
+.Gtabcontent.active {
+  display: block;
+}
+
+.select-container, .radio-container, .checkbox-container {
+  margin-bottom: 10px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+}
+
+.radio-container, .checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container p, .checkbox-container p {
+  margin: 0;
+  margin-left: 10px;
+}

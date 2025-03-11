@@ -1,0 +1,131 @@
+/* Container for the whole tabs section */
+.ktabs-container {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  /* Style the vertical tab */
+  .ktab-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 660px;
+    border-right: 1px solid #ffffff;
+    background-color: #f1f1f1;
+    margin-top:0px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .ktab-vertical .tablinks {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size:20px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    color:#0b0d0f;
+    height: 100px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .ktab-vertical .tablinks:hover {
+    background-color:#9ac426;
+  }
+  
+  /* Create an active/current tablink class */
+  .ktab-vertical .tablinks.active {
+    background-color:#d404eb;
+    color: white;
+  }
+  
+  /* Container for the tab content */
+  .ktabcontent-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Style the tab content */
+  .ktabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  /* Display the active tab content */
+  .ktabcontent.active {
+    display: block;
+  }
+  
+
+  /* DatePickerStyles.css */
+
+/* Styling the container of the DatePicker */
+.demo-container {
+    margin: 20px;
+  }
+  
+  /* Styling the DatePicker input */
+  .MuiInputBase-input {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 8px; /* Add border-radius to the input field */
+    border: 1px solid #ccc; /* Add border to make the border-radius visible */
+    box-sizing: border-box; /* Ensure padding does not affect the total width/height */
+  }
+  
+  /* Styling the DatePicker label */
+  .MuiFormLabel-root {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Styling the DatePicker popover */
+  .MuiPickersPopper-root {
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the selected date */
+  .MuiPickersDay-daySelected {
+    background-color: #3f51b5;
+    color: #fff;
+  }
+  
+  /* Styling the current date */
+  .MuiPickersDay-today {
+    border: 1px solid #3f51b5;
+  }
+  
+  /* Styling the date hover effect */
+  .MuiPickersDay-root:hover {
+    background-color: rgba(7, 12, 39, 0.08);
+  }
+
+ 
+  
+  .nav-link:hover{
+    color: rgb(10, 199, 236);
+  }
+
+  .ktablinks {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  
+ 
+  .button-text {
+    margin-left:15px; /* Adjust the gap between the icon and text */
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Additional styles if needed */
+  

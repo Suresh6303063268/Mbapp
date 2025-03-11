@@ -1,0 +1,136 @@
+
+    @media (max-width: 575.98px) {
+        .MbLog {
+          flex-direction: column;
+          height: auto;
+          padding: 20px;
+          width: 100%; /* Full width for small screens */
+          max-width: 100%; /* Ensures it doesn't exceed the viewport width */
+          box-sizing: border-box;
+          margin-left:-250px;
+        }
+      
+        .MbLog1, .MbLog2 {
+          width: 100%;
+          margin-top: 20px;
+          margin: 10px;
+        }
+      
+        .MbLog1 {
+          height: auto;
+          width: 200px;
+        }
+      
+        .MbLog1 img {
+          width:90%;
+          height: auto;
+          max-width: none;
+        }
+      
+        .MbLog2 {
+          height: auto;
+          padding: 20px;
+        }
+      
+        .MbLog2 form {
+            width:80% !important;
+            margin-left: -100px;
+          }
+          
+      
+        .MbLog3 {
+          width: 100%;
+        }
+      
+        .MbLog3 div {
+          margin-left: 0;
+        }
+        .mblogoinput{
+            width: 100px;
+        }
+      
+        .MbLog3 input {
+          width:100px;
+          margin-left:-110px;
+        }
+      
+        .MbLog3 button {
+          width:50%;
+          margin-left: 5%;
+        }
+      
+        .link-button {
+          width:50%;
+          margin-left: 5%;
+        }
+      
+        .error-txt {
+          margin-left: 5%;
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        .MbLog {
+          flex-direction: column;
+          height: auto;
+          padding: 20px;
+          width: 100%; /* Full width for small screens */
+          max-width: 100%; /* Ensures it doesn't exceed the viewport width */
+          box-sizing: border-box;
+          margin-left: 0; /* Adjusted for better alignment */
+        }
+      
+        .MbLog1, .MbLog2 {
+          width: 100%;
+          margin: 10px;
+        }
+      
+        .MbLog1 {
+          height: auto;
+          width: 200px;
+        }
+      
+        .MbLog1 img {
+          width: 90%;
+          height: auto;
+          max-width: none;
+        }
+      
+        .MbLog2 {
+          height: auto;
+          padding: 20px;
+        }
+      
+        .MbLog2 form {
+          width: 80% !important;
+          margin-left: auto;
+          margin-right: auto; /* Center the form */
+        }
+      
+        .MbLog3 {
+          width: 100%;
+        }
+      
+        .MbLog3 div {
+          margin-left: 0;
+        }
+      
+        .mblogoinput {
+          width: 100px;
+        }
+      
+        .MbLog3 input {
+          width: 100px;
+          margin-left: 0; /* Adjusted to avoid negative margin */
+        }
+      
+        .MbLog3 button, .link-button {
+          width: 50%;
+          margin-left: 25%; /* Center the button */
+        }
+      
+        .error-txt {
+          margin-left: 5%;
+        }
+      }
+      

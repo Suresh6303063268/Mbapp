@@ -1,0 +1,30 @@
+.applied:hover{
+    background-color: rgb(14, 77, 133);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.admit:hover {
+  background-color: rgb(14, 77, 133);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.answer:hover{
+    background-color: rgb(14, 77, 133);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+
+.results:hover{
+    background-color: rgb(14, 77, 133);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+

@@ -1,0 +1,99 @@
+
+
+.pqp-form-group {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px
+}
+.pqp-form-group1{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px
+}
+.pqp-form-group2{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px
+}
+
+.pqp-form-group3{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px
+}
+.pqp-form-group4{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px
+}
+
+
+
+
+.pqp-button-group {
+    display: flex;
+    width: 100%;
+    margin-top:20px;
+}
+
+.upload-button{
+    background-color: #ff0099;
+    color: white;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:230px;
+    text-decoration:none;
+    height:50px;
+    margin-left:50px;
+    margin-top: -30px;
+    padding-top:10px;
+    box-shadow: 0px 0px 5px black;
+  }
+
+
+
+  .pqp-submit-button {
+    background-color: #ff0099;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  margin-left:100px;
+    height:50px;
+    font-weight: bold;
+    margin-top: -40px;
+    width:150px;
+  }
+
+
+.upload-button input {
+    display: none;
+}
+
+.upload-button span {
+    cursor: pointer;
+}
+
+.submit-button {
+    margin-left: 10px;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

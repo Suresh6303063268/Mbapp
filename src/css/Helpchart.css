@@ -1,0 +1,129 @@
+.adi-help-support {
+    width: 1000px;
+    height:40px;
+    background-color: #DBD9D9;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+}
+.adi-fail-support{
+    width: 1000px;
+    height: 40px;
+    background-color:#23305F;
+    font-size: 20px;
+    padding-top:5px;
+    text-align: center;
+    margin-left: 100px;
+} 
+.table-container {
+  max-height: 400px; /* Set the maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrollbar (if any) */
+  cursor: fixed;
+  border-radius: 10px;
+  width: 1100px;
+}
+
+.adi-table1 {
+  width: 1000px;
+  border-collapse: collapse; /* Ensure table borders are collapsed */
+  table-layout: fixed; /* Fix table layout to prevent cell content from affecting column widths */
+  border: 2px solid,grey;
+  border-bottom: 2px solid, grey;
+  margin-left: 100px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.adi-table1 thead {
+  background-color: #f2f2f2; /* Header background color */
+  position: sticky;
+  top: 0; /* Stick header to the top */
+  z-index: 1; /* Ensure header stays above tbody content */
+
+}
+
+.adi-table1 th {
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left; /* Adjust text alignment */
+  font-weight: bold; /* Optional: Make header text bold */
+
+}
+
+.adi-table1 td {
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left; /* Adjust text alignment */
+  vertical-align: middle; /* Optional: Center content vertically */
+}
+
+/* Additional styling for cells or rows if needed */
+
+
+  .adi1-box{
+    border-bottom: 1px solid black;
+  }
+  .adi-table-box1{
+    border-left: 1px solid black;
+  }
+  .adi-end-box{
+    border-left: 1px solid black;
+  }
+  .adi-chat{
+    width: 1000px;
+    height:40px;
+    background-color: #DBD9D9;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 100px;
+    background-color:hsl(229, 39%, 11%);
+    color:white;
+    padding-top:10px;
+    margin-top: 20px;
+  }
+  .adi-table-container {
+    max-height: 400px; /* Set the maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; 
+    cursor: fixed;
+    border-radius: 10px;
+    width: 1100px;
+  }
+  .adi-table2{
+    width: 1000px;
+    border-collapse: collapse; /* Ensure table borders are collapsed */
+    table-layout: fixed; /* Fix table layout to prevent cell content from affecting column widths */
+    border: 2px solid,grey;
+    border-bottom: 2px solid, grey;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+  }
+  .adi-table2 thead {
+    background-color: #f2f2f2; /* Header background color */
+    position: sticky;
+    top: 0; /* Stick header to the top */
+    z-index: 1; /* Ensure header stays above tbody content */
+  }
+  
+  .adi-table2 th {
+    padding: 10px; /* Adjust padding as needed */
+    text-align: left; /* Adjust text alignment */
+    font-weight: bold; /* Optional: Make header text bold */
+  }
+  
+  .adi-table2 td {
+    padding: 10px; /* Adjust padding as needed */
+    text-align: left; /* Adjust text alignment */
+    vertical-align: middle; /* Optional: Center content vertically */
+  }
+  
+  /* Additional styling for cells or rows if needed */
+  
+  
+
+ 

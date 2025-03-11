@@ -1,0 +1,20 @@
+.b-ul > li{
+    background: linear-gradient(90deg, #152D43 0%, #3572A9 100%);
+    color: white;
+    height:50px;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.b-ul > li:hover{
+    background: linear-gradient(180deg, #13B0B0 0%, #084A4A 100%);
+
+}
+

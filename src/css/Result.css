@@ -1,0 +1,99 @@
+ .results-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    height: 500px;
+    margin-top: 50px;
+  } 
+
+  .results-form-group2 {
+    margin-bottom: 20px;
+    width:380px;
+    
+    
+  }
+  .form-group1{
+    margin-bottom: 20px;
+    width:380px;
+  }
+  .form-group2{
+    margin-bottom: 20px;
+    width:380px;
+  }
+  .form-group3{
+    margin-bottom: 20px;
+    width:380px;
+  }
+  .form-group4{
+    margin-bottom: 20px;
+    width:500px;
+    height: 5px;
+
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #000;
+    outline: none;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .file-text {
+    margin-top: 5px;
+  }
+  
+  /* .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff0080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+  } */
+  
+  .bhargav-upload-btn {
+   
+    height: 35px;
+    width:120px;
+    background-color: #ff0080;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+    
+  }
+  
+  .btn:hover {
+    background-color: #e60073;
+  }
+  
+  .bhargav-form-buttons {
+    margin-top: 20px;
+    margin-left: 280px;
+  }

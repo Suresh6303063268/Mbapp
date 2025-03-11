@@ -1,0 +1,68 @@
+::placeholder{
+    color:white;
+  }
+  .kfixed1{
+    position: absolute;
+    top: 950px; /* Adjust vertical position as needed */
+    left: 700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+
+  .kfixed5{
+    position: absolute;
+    top: 1250px; /* Adjust vertical position as needed */
+    left: 700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+  }
+  .kfixed6{
+    position: absolute;
+    top: 1350px; /* Adjust vertical position as needed */
+    left: 700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+  }
+  
+  .kfixed2{
+    position: absolute;
+    top:1180px; /* Adjust vertical position as needed */
+    left:700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  .kfixed3{
+    position: absolute;
+    top: 1110px; /* Adjust vertical position as needed */
+    left: 700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  .kfixed4{
+    position: absolute;
+    top: 1030px; /* Adjust vertical position as needed */
+    left: 700px; /* Adjust horizontal position as needed */
+    color: black; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  .App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .bar-graph {
+    width: 80%;
+    margin: 0 auto;
+  }
